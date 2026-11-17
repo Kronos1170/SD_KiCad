@@ -1,0 +1,3122 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "24a41da8-c7a9-485f-90e0-2718bd4e50c1")
+	(paper "A4")
+	(lib_symbols
+		(symbol "2026-11-04_21-45-39:TLV9062SIDGSR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TLV9062SIDGSR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "DGS0010A_N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9062"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TLV9062SIDGSR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DGS0010A_N DGS0010A_M DGS0010A_L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TLV9062SIDGSR_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 -1.778) (xy -3.302 -3.302)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy -5.08 -7.62)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "OUT_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "-IN_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "+IN_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -7.62 0)
+					(length 5.08)
+					(name "SHDN_A_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV9062SIDGSR_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 -1.778) (xy -3.302 -3.302)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy -5.08 -7.62)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -7.62 0)
+					(length 5.08)
+					(name "SHDN_B_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "+IN_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "-IN_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "OUT_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small_US"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "capacitor, small US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_US_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 -0.762)
+					(mid 0 -0.3734)
+					(end 1.524 -0.762)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_US_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "IBM_cardreader:R_Pack08_Split"
+			(pin_numbers
+				(hide no)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RN"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100k 0.1%"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "8 isolated resistors, DIP-16 resistor array (resistor k between pins k and 17-k)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor array network isolated DIP-16"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Pack08_Split_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Pack08_Split_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack08_Split_2_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack08_Split_3_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack08_Split_4_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack08_Split_5_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack08_Split_6_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack08_Split_7_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack08_Split_8_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 144.78 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e97eb41-8678-4a30-aebc-31f8b07d1b6b")
+	)
+	(junction
+		(at 110.49 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "625c5c7e-386c-44e8-91ca-0e74f60d8457")
+	)
+	(junction
+		(at 134.62 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76f45e03-51a6-4464-b13a-9144114c6011")
+	)
+	(junction
+		(at 152.4 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79914e5a-4a9d-4777-be1e-9f9c67a61e03")
+	)
+	(junction
+		(at 186.69 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89bc2929-a32a-414d-af04-b476a98f6fe5")
+	)
+	(junction
+		(at 120.65 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a2bc62d-9d89-403b-9eca-2d82c95ad82a")
+	)
+	(junction
+		(at 162.56 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f96b467-df38-45d4-bbaa-8014c2ba6681")
+	)
+	(junction
+		(at 176.53 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97a2fba8-6b57-4b25-8cc5-6ab6656bdbc4")
+	)
+	(junction
+		(at 148.59 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "980646bf-7f7d-4656-b693-abe27f6d2ff6")
+	)
+	(wire
+		(pts
+			(xy 152.4 48.26) (xy 152.4 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ddb9200-e830-4a27-9030-7a34e4cf14a3")
+	)
+	(wire
+		(pts
+			(xy 63.5 88.9) (xy 68.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "106a24d2-7599-47d4-8461-66b3e747ae7f")
+	)
+	(wire
+		(pts
+			(xy 106.68 81.28) (xy 111.76 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a61c4db-ba57-468e-a37a-c527aa14872f")
+	)
+	(wire
+		(pts
+			(xy 200.66 48.26) (xy 195.58 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2491f2d4-549a-409c-ab1e-abb5b68b8979")
+	)
+	(wire
+		(pts
+			(xy 152.4 43.18) (xy 152.4 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25eb3b9a-b455-46a3-9c58-f110da10c31a")
+	)
+	(wire
+		(pts
+			(xy 63.5 48.26) (xy 68.58 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38da9f57-7a09-4f4c-aece-e7740166bd17")
+	)
+	(wire
+		(pts
+			(xy 186.69 58.42) (xy 186.69 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f0dbc1-c0b1-42ae-96c2-6884c13ddd7f")
+	)
+	(wire
+		(pts
+			(xy 120.65 73.66) (xy 120.65 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44689583-82bd-45d7-9760-a16c355fa4cb")
+	)
+	(wire
+		(pts
+			(xy 172.72 83.82) (xy 172.72 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4473a6f1-3813-4861-8b3c-c989e964fd08")
+	)
+	(wire
+		(pts
+			(xy 134.62 44.45) (xy 134.62 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44751995-1a1e-46e7-b905-410ef23ca6f9")
+	)
+	(wire
+		(pts
+			(xy 148.59 46.99) (xy 162.56 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47dbb882-03f3-459b-a107-36cdb213aaf5")
+	)
+	(wire
+		(pts
+			(xy 134.62 73.66) (xy 134.62 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a62b884-4e7c-42f1-89aa-49fadd728fa5")
+	)
+	(wire
+		(pts
+			(xy 162.56 71.12) (xy 162.56 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5363b292-ef91-416c-b608-4f7b7391a3d4")
+	)
+	(wire
+		(pts
+			(xy 63.5 69.85) (xy 68.58 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "537c1f22-38ac-45cb-b720-be6c2326ce9b")
+	)
+	(wire
+		(pts
+			(xy 148.59 58.42) (xy 148.59 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55806923-7c51-42cf-9f06-1506208c772e")
+	)
+	(wire
+		(pts
+			(xy 63.5 53.34) (xy 68.58 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5643ab00-b8c6-4607-904a-bf1ef4253680")
+	)
+	(wire
+		(pts
+			(xy 152.4 48.26) (xy 177.8 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634128ad-4ea3-4dca-b15d-a0e9f84c9b2a")
+	)
+	(wire
+		(pts
+			(xy 186.69 48.26) (xy 185.42 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "667c433d-79b3-4c43-96b7-90c51cd601f6")
+	)
+	(wire
+		(pts
+			(xy 190.5 78.74) (xy 185.42 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bebddb1-0159-4bec-ad96-3a8288ed3449")
+	)
+	(wire
+		(pts
+			(xy 172.72 58.42) (xy 186.69 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c2b123d-7213-453c-ae3f-6baaf858598b")
+	)
+	(wire
+		(pts
+			(xy 187.96 48.26) (xy 186.69 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d324743-6aef-40cb-a24d-25c4a4dc2898")
+	)
+	(wire
+		(pts
+			(xy 120.65 73.66) (xy 119.38 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e52d843-7e43-4565-9050-e1b4e1a48f04")
+	)
+	(wire
+		(pts
+			(xy 176.53 78.74) (xy 177.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77a86bc4-a264-4192-8eca-cff940fe444b")
+	)
+	(wire
+		(pts
+			(xy 63.5 80.01) (xy 68.58 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab6c969-0075-49d6-ae7a-ed9d22f0d137")
+	)
+	(wire
+		(pts
+			(xy 110.49 58.42) (xy 110.49 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7efea85e-86a1-4f23-8110-d626da1d086b")
+	)
+	(wire
+		(pts
+			(xy 148.59 73.66) (xy 134.62 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d3d88c-9e9d-466d-8ba8-c3e6fd8236f4")
+	)
+	(wire
+		(pts
+			(xy 162.56 44.45) (xy 162.56 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8461a6a9-4a03-4e5c-9231-df5b85dd0a6a")
+	)
+	(wire
+		(pts
+			(xy 109.22 48.26) (xy 110.49 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8494b214-180c-433d-aeb0-0d1e54aa4e5c")
+	)
+	(wire
+		(pts
+			(xy 144.78 48.26) (xy 144.78 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "861cedaf-9638-40c7-9ee9-00b17c1bc859")
+	)
+	(wire
+		(pts
+			(xy 124.46 83.82) (xy 148.59 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc88358-f2dd-491c-932a-d7e8da993fc8")
+	)
+	(wire
+		(pts
+			(xy 148.59 83.82) (xy 148.59 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d305d0d-41f6-4ee3-b1df-117209eef100")
+	)
+	(wire
+		(pts
+			(xy 162.56 46.99) (xy 162.56 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e73034f-dac6-4160-b202-2d94623baf03")
+	)
+	(wire
+		(pts
+			(xy 124.46 63.5) (xy 120.65 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90d636e6-3d68-4db5-adf9-e41f8031513b")
+	)
+	(wire
+		(pts
+			(xy 176.53 71.12) (xy 176.53 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "915658a7-3d7b-4cc4-a988-180ef392a799")
+	)
+	(wire
+		(pts
+			(xy 110.49 58.42) (xy 124.46 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9308da7b-99c4-48a6-890f-578d19dc60fb")
+	)
+	(wire
+		(pts
+			(xy 96.52 48.26) (xy 101.6 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a5cb05-0ded-43fc-b943-b6bae69fc95b")
+	)
+	(wire
+		(pts
+			(xy 124.46 68.58) (xy 124.46 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82ff760-cc1c-4a05-9bee-3a844e830754")
+	)
+	(wire
+		(pts
+			(xy 134.62 71.12) (xy 134.62 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea10c0e-1de1-4bb7-89e2-59055242254d")
+	)
+	(wire
+		(pts
+			(xy 148.59 83.82) (xy 172.72 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b459498a-6c70-4549-af4c-74aa2dc65688")
+	)
+	(wire
+		(pts
+			(xy 63.5 62.23) (xy 68.58 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b46e6561-92e7-4798-9bc7-03b2607d453f")
+	)
+	(wire
+		(pts
+			(xy 120.65 81.28) (xy 119.38 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8728dc6-ac38-4d55-b430-a3d988cab55a")
+	)
+	(wire
+		(pts
+			(xy 63.5 74.93) (xy 68.58 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be0c306a-532e-4cef-8805-928479b2531e")
+	)
+	(wire
+		(pts
+			(xy 190.5 71.12) (xy 185.42 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0315bb2-a04b-489e-a7f4-d03b06cb6400")
+	)
+	(wire
+		(pts
+			(xy 172.72 63.5) (xy 176.53 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6ac9fc9-f72b-4b9d-92a0-6aa006450889")
+	)
+	(wire
+		(pts
+			(xy 63.5 101.6) (xy 68.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8777972-8e23-4c5b-ac0b-0cff4520c0a2")
+	)
+	(wire
+		(pts
+			(xy 63.5 93.98) (xy 68.58 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd02f757-1f03-40bf-919b-53440bde6ae4")
+	)
+	(wire
+		(pts
+			(xy 148.59 63.5) (xy 148.59 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce802146-d3ca-47f5-bd46-cfb6f15ca89b")
+	)
+	(wire
+		(pts
+			(xy 200.66 55.88) (xy 200.66 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d06946d6-dec4-4bd0-b002-cafb9a71aeac")
+	)
+	(wire
+		(pts
+			(xy 119.38 48.26) (xy 144.78 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc993306-7dc2-40b2-a9a5-96bb899ee62e")
+	)
+	(wire
+		(pts
+			(xy 176.53 71.12) (xy 177.8 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebedd2a5-a939-42c5-9c7a-90bd77d10f04")
+	)
+	(wire
+		(pts
+			(xy 144.78 43.18) (xy 144.78 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda35d8b-f33d-409a-bacd-fce4f4a3aa94")
+	)
+	(wire
+		(pts
+			(xy 110.49 48.26) (xy 111.76 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a0cd02-1099-4598-844b-b3d627e0ea94")
+	)
+	(wire
+		(pts
+			(xy 96.52 55.88) (xy 96.52 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f48065dd-1219-42c9-8b28-de8ead8e0139")
+	)
+	(wire
+		(pts
+			(xy 120.65 63.5) (xy 120.65 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5e59c66-a0b4-4544-abe5-575931967ccf")
+	)
+	(wire
+		(pts
+			(xy 106.68 73.66) (xy 111.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa9b1d0a-54d4-4328-a4bf-ae6bf902ea1a")
+	)
+	(wire
+		(pts
+			(xy 176.53 71.12) (xy 176.53 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc9b80ac-bd8d-4b57-af2f-fcb2ba01d0d0")
+	)
+	(label "MTR_COM"
+		(at 68.58 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05cf98de-1f2b-4d81-b1bc-306f64e98fe4")
+	)
+	(label "M-"
+		(at 68.58 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d29c9ba-f957-4c69-b0a2-a242226bd916")
+	)
+	(label "VSS"
+		(at 68.58 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1331ef93-28d4-487e-9f4f-7eb11a3c2a56")
+	)
+	(label "M+"
+		(at 144.78 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b7e40f7-36b8-4d19-89fc-fa274febd666")
+	)
+	(label "MTR_A"
+		(at 106.68 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38a9abe6-5276-449a-84c2-32b0ebbef64f")
+	)
+	(label "Vs{slash}2"
+		(at 68.58 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a08fab4-afee-42ac-be5a-9412a9b6ee92")
+	)
+	(label "MTR_COM"
+		(at 200.66 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b8a4899-b6aa-4fe6-a811-19290ad4aa05")
+	)
+	(label "Vs{slash}2"
+		(at 190.5 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "520c04bd-cf92-4597-ba43-49fabed6143c")
+	)
+	(label "Vs{slash}2"
+		(at 106.68 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cead95a-0fca-4134-a650-0a39f6b7043b")
+	)
+	(label "AMP_PWR"
+		(at 148.59 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d5502a6-d725-430b-a728-8bc1bfc61a21")
+	)
+	(label "VDD"
+		(at 68.58 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "774d2f9b-68ed-40d9-a0b0-d56174b43a47")
+	)
+	(label "M-"
+		(at 152.4 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a1c4124-e322-43d4-8fcc-e9f0f6169c16")
+	)
+	(label "MTR_B"
+		(at 68.58 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9dc2c925-938f-45df-b3a2-adb22918daf0")
+	)
+	(label "VDD"
+		(at 162.56 44.45 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e060c9d-c174-444f-87ab-bca70c8f93db")
+	)
+	(label "MTR_A"
+		(at 68.58 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "acfce8a3-e909-4e4e-8479-13662d0b5f9d")
+	)
+	(label "VSS"
+		(at 162.56 76.2 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad9f39a1-dcb7-4dd3-81bf-79262f2972fe")
+	)
+	(label "M+"
+		(at 68.58 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb7ee2a9-87b0-47c1-a140-3eb2cf9adc10")
+	)
+	(label "AMP_PWR"
+		(at 68.58 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd4ab4c2-9239-4904-a5eb-4b968038b8ab")
+	)
+	(label "MTR_B"
+		(at 190.5 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f82af71c-26b0-4937-bed0-2a9c06c48015")
+	)
+	(label "VDD"
+		(at 134.62 44.45 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8bb6a22-0e77-4e15-9f9f-d842e5d123cf")
+	)
+	(label "VSS"
+		(at 134.62 76.2 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f98612c2-88f4-4719-a922-0900257d449a")
+	)
+	(label "MTR_COM"
+		(at 96.52 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbca6d40-2f37-412c-b287-06327618c013")
+	)
+	(hierarchical_label "MTRCOM"
+		(shape bidirectional)
+		(at 63.5 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14f2b7ab-a142-4ea7-8269-d2c652b14a5b")
+	)
+	(hierarchical_label "MTRA"
+		(shape bidirectional)
+		(at 63.5 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2cf54f29-4bff-42c9-91f1-8ec73dbbf806")
+	)
+	(hierarchical_label "Vs{slash}2"
+		(shape bidirectional)
+		(at 63.5 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "686133ef-9dc8-405c-bdef-cb7886cfdb40")
+	)
+	(hierarchical_label "M+"
+		(shape bidirectional)
+		(at 63.5 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c98f01a-16f0-450a-8719-c4689de6fa0e")
+	)
+	(hierarchical_label "AMP_PWR"
+		(shape bidirectional)
+		(at 63.5 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a6bf9047-a52b-4fca-952b-72fff96d1eeb")
+	)
+	(hierarchical_label "VDD"
+		(shape bidirectional)
+		(at 63.5 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a813740a-a40d-48c7-a107-2b234ae206c0")
+	)
+	(hierarchical_label "VSS"
+		(shape bidirectional)
+		(at 63.5 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8962416-6a2f-4c92-838e-81b8402dccb8")
+	)
+	(hierarchical_label "M-"
+		(shape bidirectional)
+		(at 63.5 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b94b7d82-43f0-4e87-b454-8a932e3b23e5")
+	)
+	(hierarchical_label "MTRB"
+		(shape bidirectional)
+		(at 63.5 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb2d88f9-cac6-4485-a1c9-4552d9fdefcd")
+	)
+	(symbol
+		(lib_id "IBM_cardreader:R_Pack08_Split")
+		(at 105.41 48.26 270)
+		(mirror x)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0e65ca51-8bf7-4c3d-b2e1-568af87a5c98")
+		(property "Reference" "RN1"
+			(at 105.41 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k 0.1%"
+			(at 105.41 50.292 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 105.41 50.038 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "8 isolated resistors, DIP-16 resistor array"
+			(at 105.41 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e0755563-c2ef-4c6e-87ca-6496a547cd0d")
+		)
+		(pin "14"
+			(uuid "ed20be4f-9d2a-4384-840c-87922d205130")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d6985702-9f1a-490c-b0bd-7828c6fbb97e/ab03aa96-0059-4616-a6c9-287ba03c257f"
+					(reference "RN1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IBM_cardreader:R_Pack08_Split")
+		(at 181.61 48.26 90)
+		(unit 8)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17d4cc62-551e-4c4d-aacb-a9e970c31e64")
+		(property "Reference" "RN1"
+			(at 181.61 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k 0.1%"
+			(at 181.61 50.292 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 181.61 50.038 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "8 isolated resistors, DIP-16 resistor array"
+			(at 181.61 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "6b4b282f-e69f-4977-9cbe-ad0dab687684")
+		)
+		(pin "9"
+			(uuid "2e907908-e2ed-4fb1-b024-0f1871f28b9a")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d6985702-9f1a-490c-b0bd-7828c6fbb97e/ab03aa96-0059-4616-a6c9-287ba03c257f"
+					(reference "RN1")
+					(unit 8)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IBM_cardreader:R_Pack08_Split")
+		(at 181.61 78.74 90)
+		(unit 6)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f91f9cc-a3af-4675-9d02-4e070e517537")
+		(property "Reference" "RN1"
+			(at 181.61 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k 0.1%"
+			(at 181.61 80.772 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 181.61 80.518 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "8 isolated resistors, DIP-16 resistor array"
+			(at 181.61 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "6c9fdbc4-e2a2-43f2-9866-72b1619b3f3b")
+		)
+		(pin "11"
+			(uuid "a2d140b8-5772-469f-a02c-7407c0a88e12")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d6985702-9f1a-490c-b0bd-7828c6fbb97e/ab03aa96-0059-4616-a6c9-287ba03c257f"
+					(reference "RN1")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IBM_cardreader:R_Pack08_Split")
+		(at 191.77 48.26 90)
+		(unit 7)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3fbc90cd-b030-4320-ba74-d984cf2cd7b7")
+		(property "Reference" "RN1"
+			(at 191.77 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k 0.1%"
+			(at 191.77 50.292 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 191.77 50.038 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "8 isolated resistors, DIP-16 resistor array"
+			(at 191.77 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "973ca1d3-c526-49de-aab0-6e819b8756a4")
+		)
+		(pin "10"
+			(uuid "dd6cc3a5-483b-4700-92cf-d8e82ac48ff3")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d6985702-9f1a-490c-b0bd-7828c6fbb97e/ab03aa96-0059-4616-a6c9-287ba03c257f"
+					(reference "RN1")
+					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IBM_cardreader:R_Pack08_Split")
+		(at 115.57 48.26 270)
+		(mirror x)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4e17618c-bc7e-4a5c-9e23-44c558b203e0")
+		(property "Reference" "RN1"
+			(at 115.57 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k 0.1%"
+			(at 115.57 50.292 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 115.57 50.038 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "8 isolated resistors, DIP-16 resistor array"
+			(at 115.57 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "6b9c54f7-ca12-45d9-aa7d-9f6a5e6d18a6")
+		)
+		(pin "13"
+			(uuid "c7373d09-da51-41f9-b6b8-4834518a5216")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d6985702-9f1a-490c-b0bd-7828c6fbb97e/ab03aa96-0059-4616-a6c9-287ba03c257f"
+					(reference "RN1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IBM_cardreader:R_Pack08_Split")
+		(at 115.57 73.66 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "58772447-203d-4782-a582-05bcdeb2b51f")
+		(property "Reference" "RN1"
+			(at 115.57 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k 0.1%"
+			(at 115.57 75.692 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 115.57 75.438 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "8 isolated resistors, DIP-16 resistor array"
+			(at 115.57 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e66147b4-3a1a-4cd0-bf10-8751febaa431")
+		)
+		(pin "16"
+			(uuid "1be85e8c-eb35-4221-be4f-2b141b4f00cc")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d6985702-9f1a-490c-b0bd-7828c6fbb97e/ab03aa96-0059-4616-a6c9-287ba03c257f"
+					(reference "RN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IBM_cardreader:R_Pack08_Split")
+		(at 181.61 71.12 90)
+		(unit 5)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5aafe42a-577b-4be8-9f34-39d08c56a12d")
+		(property "Reference" "RN1"
+			(at 181.61 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k 0.1%"
+			(at 181.61 73.152 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 181.61 72.898 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "8 isolated resistors, DIP-16 resistor array"
+			(at 181.61 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "f5f70715-0383-4bd8-b1f4-4d8c7f21ea20")
+		)
+		(pin "12"
+			(uuid "ae4975c7-0c56-4540-8fe0-cebee04427e6")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d6985702-9f1a-490c-b0bd-7828c6fbb97e/ab03aa96-0059-4616-a6c9-287ba03c257f"
+					(reference "RN1")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2026-11-04_21-45-39:TLV9062SIDGSR")
+		(at 162.56 60.96 0)
+		(mirror y)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb59ff1f-e043-45c3-82a2-b52aaccc36b5")
+		(property "Reference" "U23"
+			(at 165.6781 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TLV9062SIDGSR"
+			(at 165.6781 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "IBM_cardreader:TLV9062S_carrier"
+			(at 162.56 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9062"
+			(at 162.56 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6719fc53-1451-498e-b143-4111b2af23ff")
+		)
+		(pin "10"
+			(uuid "17f76314-aa13-4a09-8254-93cbf363cf30")
+		)
+		(pin "6"
+			(uuid "89e1fceb-c6d6-48d2-8843-831e3bc9a484")
+		)
+		(pin "7"
+			(uuid "0cceb666-a299-4685-8e5a-78c9d3d5d902")
+		)
+		(pin "3"
+			(uuid "2c6f0c57-2d41-4d4b-b804-c1b98b23a8a2")
+		)
+		(pin "10"
+			(uuid "1ef9301e-a7e2-4a56-a4e2-a56ce12060d3")
+		)
+		(pin "4"
+			(uuid "c5ee266a-8b67-4fd4-8bab-b134f2942c91")
+		)
+		(pin "4"
+			(uuid "636d11bf-aae6-4a17-82ee-23aad8d2f6ad")
+		)
+		(pin "5"
+			(uuid "afada566-38d6-4584-b9c8-8bb2f81bd65a")
+		)
+		(pin "8"
+			(uuid "e87ab833-0b0e-4f41-ade2-4ad401ee223a")
+		)
+		(pin "2"
+			(uuid "90fa288c-e637-42f7-8dd8-db6a649c9c51")
+		)
+		(pin "9"
+			(uuid "b22db5ce-6c30-413d-8696-9f6a66f5c4ce")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d6985702-9f1a-490c-b0bd-7828c6fbb97e/ab03aa96-0059-4616-a6c9-287ba03c257f"
+					(reference "U23")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2026-11-04_21-45-39:TLV9062SIDGSR")
+		(at 134.62 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bb59ff1f-e043-45c3-82a2-b52aaccc36b6")
+		(property "Reference" "U23"
+			(at 122.428 51.308 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TLV9062SIDGSR"
+			(at 122.428 53.848 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "IBM_cardreader:TLV9062S_carrier"
+			(at 134.62 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9062"
+			(at 134.62 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6719fc53-1451-498e-b143-4111b2af2400")
+		)
+		(pin "10"
+			(uuid "17f76314-aa13-4a09-8254-93cbf363cf31")
+		)
+		(pin "6"
+			(uuid "89e1fceb-c6d6-48d2-8843-831e3bc9a485")
+		)
+		(pin "7"
+			(uuid "0cceb666-a299-4685-8e5a-78c9d3d5d903")
+		)
+		(pin "3"
+			(uuid "2c6f0c57-2d41-4d4b-b804-c1b98b23a8a3")
+		)
+		(pin "10"
+			(uuid "1ef9301e-a7e2-4a56-a4e2-a56ce12060d4")
+		)
+		(pin "4"
+			(uuid "c5ee266a-8b67-4fd4-8bab-b134f2942c92")
+		)
+		(pin "4"
+			(uuid "636d11bf-aae6-4a17-82ee-23aad8d2f6ae")
+		)
+		(pin "5"
+			(uuid "afada566-38d6-4584-b9c8-8bb2f81bd65b")
+		)
+		(pin "8"
+			(uuid "e87ab833-0b0e-4f41-ade2-4ad401ee223b")
+		)
+		(pin "2"
+			(uuid "90fa288c-e637-42f7-8dd8-db6a649c9c52")
+		)
+		(pin "9"
+			(uuid "b22db5ce-6c30-413d-8696-9f6a66f5c4cf")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d6985702-9f1a-490c-b0bd-7828c6fbb97e/ab03aa96-0059-4616-a6c9-287ba03c257f"
+					(reference "U23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IBM_cardreader:R_Pack08_Split")
+		(at 115.57 81.28 270)
+		(mirror x)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bc8b32d5-8a1f-4ebf-8761-e16728f26c7c")
+		(property "Reference" "RN1"
+			(at 115.57 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k 0.1%"
+			(at 115.57 83.312 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 115.57 83.058 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "8 isolated resistors, DIP-16 resistor array"
+			(at 115.57 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d0ae3302-a38e-45e9-bed1-8c4ce4da720e")
+		)
+		(pin "15"
+			(uuid "c2a1e101-005f-4ea3-99fd-c2b7e78c9076")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d6985702-9f1a-490c-b0bd-7828c6fbb97e/ab03aa96-0059-4616-a6c9-287ba03c257f"
+					(reference "RN1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 148.59 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc89393f-b4df-4dd6-ba7b-e7c3a170d232")
+		(property "Reference" "C9"
+			(at 151.13 59.8169 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Small_US"
+			(at 151.13 62.3569 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+			(at 148.59 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 148.59 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fb2de7d8-7f53-4b9c-b6d8-6063bba88c51")
+		)
+		(pin "1"
+			(uuid "bfb2dc08-90c9-4821-9bf8-90cf0776fd0e")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d6985702-9f1a-490c-b0bd-7828c6fbb97e/ab03aa96-0059-4616-a6c9-287ba03c257f"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

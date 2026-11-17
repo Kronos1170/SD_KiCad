@@ -1,0 +1,4125 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "4f6e76b1-0572-47c9-8fe0-6f55152e9157")
+	(paper "A4")
+	(lib_symbols
+		(symbol "AM2520F3C03-P22:AM2520F3C03-P22"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "AM2520F3C03-P22"
+				(at 12.7 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "AM2520F3C03P22"
+				(at 12.7 -93.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/AM2520F3C03-P22.pdf"
+				(at 12.7 -193.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" "2.5X2.0MM INFRARED SMD LED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "2.9"
+				(at 12.7 -393.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Mouser Part Number" "604-AM2520F3C03-P22"
+				(at 12.7 -493.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/AM2520F3C03-P22?qs=fAHHVMwC%252BbjmuZM2lGhnaA%3D%3D"
+				(at 12.7 -593.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer_Name" "Kingbright"
+				(at 12.7 -693.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AM2520F3C03-P22"
+				(at 12.7 -793.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(symbol "AM2520F3C03-P22_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "POT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 83.82 95.25) (xy 91.44 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10a9328f-901f-462c-b002-c91aca87929d")
+	)
+	(wire
+		(pts
+			(xy 130.81 166.37) (xy 138.43 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e779ce8-1a35-46cb-b2fc-42932489f65a")
+	)
+	(wire
+		(pts
+			(xy 130.81 24.13) (xy 138.43 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee8d1ee-9e89-43c0-99bf-5883f274b108")
+	)
+	(wire
+		(pts
+			(xy 130.81 130.81) (xy 138.43 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4829f844-ba59-4459-a383-600d53d3dc1a")
+	)
+	(wire
+		(pts
+			(xy 83.82 166.37) (xy 91.44 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f18cbd73-1e3f-4132-a6b8-548471f22b3e")
+	)
+	(wire
+		(pts
+			(xy 83.82 24.13) (xy 91.44 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c3b0127-0a10-46e6-a188-c6c981832ed4")
+	)
+	(wire
+		(pts
+			(xy 130.81 59.69) (xy 138.43 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0988981-3707-4075-8d58-6de066ab5c2c")
+	)
+	(wire
+		(pts
+			(xy 83.82 130.81) (xy 91.44 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "819b851d-7668-4230-b969-9138c49eea19")
+	)
+	(wire
+		(pts
+			(xy 130.81 95.25) (xy 138.43 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b952707-e382-41d8-9c35-762337a250c0")
+	)
+	(wire
+		(pts
+			(xy 83.82 59.69) (xy 91.44 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98cd27cc-7013-47b6-b73b-999a9bd98fe4")
+	)
+	(wire
+		(pts
+			(xy 91.44 130.81) (xy 96.52 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00bda247-1311-4b28-a049-fec921fd0a8e")
+	)
+	(wire
+		(pts
+			(xy 82.55 95.25) (xy 83.82 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "014f6838-6d00-476a-9999-2f88402d788c")
+	)
+	(wire
+		(pts
+			(xy 81.28 59.69) (xy 82.55 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c7fb96b-a715-4732-b99a-d140044d76c4")
+	)
+	(wire
+		(pts
+			(xy 111.76 130.81) (xy 120.65 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f827cdc-457a-4c28-b0e9-7a9faae4e527")
+	)
+	(wire
+		(pts
+			(xy 64.77 24.13) (xy 73.66 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f83c9ab-f8ad-48a7-a0da-64f8d8544d29")
+	)
+	(wire
+		(pts
+			(xy 138.43 24.13) (xy 143.51 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1045bd43-bb81-42f8-8239-5ad7839c89b0")
+	)
+	(wire
+		(pts
+			(xy 128.27 166.37) (xy 129.54 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15cd6fa4-c6fe-4d0a-910d-f25b68fe4cac")
+	)
+	(wire
+		(pts
+			(xy 138.43 59.69) (xy 143.51 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a3d13ed-ae4f-4b7f-895e-19256c97d849")
+	)
+	(wire
+		(pts
+			(xy 82.55 59.69) (xy 83.82 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a5e05fd-8c0a-4b6c-8ac6-ab76449bbdb5")
+	)
+	(wire
+		(pts
+			(xy 128.27 95.25) (xy 129.54 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f257547-8cc2-4fa2-a499-fcbd2985490c")
+	)
+	(wire
+		(pts
+			(xy 82.55 130.81) (xy 83.82 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c0be95f-8d05-44df-b9c0-ade24adf22f5")
+	)
+	(wire
+		(pts
+			(xy 111.76 78.74) (xy 111.76 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e5d0ce6-410f-4023-b7a9-9a409d155a8f")
+	)
+	(wire
+		(pts
+			(xy 129.54 166.37) (xy 130.81 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eafa8f3-75c5-429a-a042-2b886c8448b5")
+	)
+	(wire
+		(pts
+			(xy 64.77 166.37) (xy 64.77 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30e5a380-81f9-44ef-862a-da8210633f9c")
+	)
+	(wire
+		(pts
+			(xy 82.55 166.37) (xy 83.82 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "320d615c-9722-454f-a82d-3889c3e12fa3")
+	)
+	(wire
+		(pts
+			(xy 129.54 95.25) (xy 130.81 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc3b32d-d843-4b39-b196-360a4539ba47")
+	)
+	(wire
+		(pts
+			(xy 81.28 130.81) (xy 82.55 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d742d71-0730-4648-bc8c-3d4cde4ef5a1")
+	)
+	(wire
+		(pts
+			(xy 111.76 59.69) (xy 111.76 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc2e25b-6a9a-4231-b9be-0dd72de1d4d3")
+	)
+	(wire
+		(pts
+			(xy 64.77 130.81) (xy 73.66 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50080939-ca3b-4650-a3e9-0afabcbdc2a9")
+	)
+	(wire
+		(pts
+			(xy 129.54 130.81) (xy 130.81 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae0ab06-13d2-4821-9f34-d11a0bb04832")
+	)
+	(wire
+		(pts
+			(xy 91.44 95.25) (xy 96.52 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5caef48f-38c8-4eef-9337-e2f04536ed53")
+	)
+	(wire
+		(pts
+			(xy 82.55 24.13) (xy 83.82 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c0cfb1-32d5-47dc-bb86-916ca9b2f2a0")
+	)
+	(wire
+		(pts
+			(xy 64.77 59.69) (xy 73.66 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ed7635-47ca-4491-9e48-bcfd3ed35428")
+	)
+	(wire
+		(pts
+			(xy 91.44 166.37) (xy 96.52 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b7ede7-f5fa-439e-988e-b47881ca94e9")
+	)
+	(wire
+		(pts
+			(xy 111.76 114.3) (xy 111.76 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69400eea-ed83-4176-90cf-f55ed075e860")
+	)
+	(wire
+		(pts
+			(xy 138.43 130.81) (xy 143.51 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f86ebb0-2b86-4123-91e1-28002334e526")
+	)
+	(wire
+		(pts
+			(xy 138.43 166.37) (xy 143.51 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "713e0fd8-c72d-4006-9cd3-16bad6836819")
+	)
+	(wire
+		(pts
+			(xy 64.77 43.18) (xy 64.77 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "779341be-6698-4ae1-8841-51a74c3aefa9")
+	)
+	(wire
+		(pts
+			(xy 129.54 24.13) (xy 130.81 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d0b0460-1176-42ee-9d6e-b48efd41446b")
+	)
+	(wire
+		(pts
+			(xy 111.76 43.18) (xy 111.76 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8223ff4d-6cca-41d7-97ab-35a2254cd703")
+	)
+	(wire
+		(pts
+			(xy 111.76 166.37) (xy 111.76 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "852dc81f-e80d-4454-a70e-392d0a3f7257")
+	)
+	(wire
+		(pts
+			(xy 64.77 95.25) (xy 73.66 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "859fee40-ff70-4cbe-9a8a-829e9bc2f1ef")
+	)
+	(wire
+		(pts
+			(xy 111.76 24.13) (xy 120.65 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "882a2be5-e96d-4df2-90eb-693cf6bce77e")
+	)
+	(wire
+		(pts
+			(xy 64.77 59.69) (xy 64.77 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94053d3a-736c-4ea7-9fa1-ddcf02e17194")
+	)
+	(wire
+		(pts
+			(xy 81.28 24.13) (xy 82.55 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9551b11a-1c6b-4826-a828-91d5dd56d6a3")
+	)
+	(wire
+		(pts
+			(xy 91.44 59.69) (xy 96.52 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98aeaf23-6687-4427-93b7-4c974cf92685")
+	)
+	(wire
+		(pts
+			(xy 64.77 185.42) (xy 64.77 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99d6dd3f-76b1-4d23-b4d8-ec52e48fc2e0")
+	)
+	(wire
+		(pts
+			(xy 111.76 149.86) (xy 111.76 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a17cbfb1-437d-4a5c-aee8-c2ae4da7e946")
+	)
+	(wire
+		(pts
+			(xy 111.76 185.42) (xy 111.76 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad8426ca-269a-4d34-a97a-f52ffc09c88a")
+	)
+	(wire
+		(pts
+			(xy 64.77 24.13) (xy 64.77 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb5c48f-c375-41e2-90fb-28062bd8dcc9")
+	)
+	(wire
+		(pts
+			(xy 64.77 78.74) (xy 64.77 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae774986-eaed-4a22-9c31-1f607d349202")
+	)
+	(wire
+		(pts
+			(xy 111.76 95.25) (xy 120.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8f1c7a5-ed3b-4132-9c1c-5c10601dea5c")
+	)
+	(wire
+		(pts
+			(xy 128.27 130.81) (xy 129.54 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb590661-af5b-438d-bccf-f89211449017")
+	)
+	(wire
+		(pts
+			(xy 111.76 59.69) (xy 120.65 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdfc6b78-6b4a-4de6-b606-f3fee60fde52")
+	)
+	(wire
+		(pts
+			(xy 64.77 166.37) (xy 73.66 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfa219c8-26a3-4d15-9a95-308708285686")
+	)
+	(wire
+		(pts
+			(xy 64.77 149.86) (xy 64.77 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f7d680-c5f6-4b06-b0b6-726849938a8d")
+	)
+	(wire
+		(pts
+			(xy 111.76 130.81) (xy 111.76 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1be80bd-496d-4fa7-871a-ef0da225e5d6")
+	)
+	(wire
+		(pts
+			(xy 91.44 24.13) (xy 96.52 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ec2326-22d8-4f9c-aba4-2113fef4d024")
+	)
+	(wire
+		(pts
+			(xy 81.28 95.25) (xy 82.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbeee941-c187-4a70-ab2d-33401d1b51bf")
+	)
+	(wire
+		(pts
+			(xy 81.28 166.37) (xy 82.55 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e571a8-fdd2-43bf-a4ad-3a2df6ae4f63")
+	)
+	(wire
+		(pts
+			(xy 111.76 24.13) (xy 111.76 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d59b7289-16fb-4ad5-ad62-31d65ed7c65b")
+	)
+	(wire
+		(pts
+			(xy 128.27 24.13) (xy 129.54 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5eeea0b-0f84-450e-a3c0-a9c03987cf9a")
+	)
+	(wire
+		(pts
+			(xy 111.76 95.25) (xy 111.76 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d8c93c-8577-4c59-bfc3-80f5de9d8b19")
+	)
+	(wire
+		(pts
+			(xy 64.77 130.81) (xy 64.77 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db6b75d5-8e14-4f57-a3ca-4a2e8e65cac0")
+	)
+	(wire
+		(pts
+			(xy 64.77 95.25) (xy 64.77 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de80685e-c157-4438-9e67-ada4e67956db")
+	)
+	(wire
+		(pts
+			(xy 129.54 59.69) (xy 130.81 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df2a4db4-4b76-4193-adea-4876b3b09d6f")
+	)
+	(wire
+		(pts
+			(xy 138.43 95.25) (xy 143.51 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb24af25-bfc2-4686-8c92-7eaa24b51598")
+	)
+	(wire
+		(pts
+			(xy 64.77 114.3) (xy 64.77 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed5ae1e1-a761-438d-9bc7-a4e3f8582aab")
+	)
+	(wire
+		(pts
+			(xy 152.4 24.13) (xy 157.48 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4a3ff53-470b-42b9-80ee-810528925b35")
+	)
+	(wire
+		(pts
+			(xy 111.76 166.37) (xy 120.65 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f59fa7b7-4e2c-4b74-b5ef-2240b53cc42e")
+	)
+	(wire
+		(pts
+			(xy 128.27 59.69) (xy 129.54 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb15324a-0bc3-4aba-bad4-2ba97289bbb5")
+	)
+	(label "VSS"
+		(at 64.77 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "148e1384-60a5-42b1-a04d-346f4c602b2e")
+	)
+	(label "VSS"
+		(at 64.77 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37a97a70-6126-407b-9f85-5b12a6fb9fac")
+	)
+	(label "VSS"
+		(at 64.77 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ea7c263-f45b-4c08-a6d6-19d5c2d25b7f")
+	)
+	(label "VSS"
+		(at 111.76 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70306810-9833-439f-9066-29fe5f5d9646")
+	)
+	(label "VSS"
+		(at 111.76 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "759045d3-98ba-4617-8f8b-25fe1ab9c87f")
+	)
+	(label "VSS"
+		(at 111.76 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75986384-ca69-4888-a519-3485b7472ea1")
+	)
+	(label "VSS"
+		(at 111.76 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75d5beae-4498-4aff-ab07-52af62bc6ac0")
+	)
+	(label "VSS"
+		(at 64.77 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "995db092-f6af-4754-9290-814aafa72896")
+	)
+	(label "VSS"
+		(at 152.4 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b84ed85c-1630-4aef-a716-5a7512e8e168")
+	)
+	(label "VSS"
+		(at 111.76 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca32c739-e8df-4b92-af13-329b8ed48446")
+	)
+	(label "VSS"
+		(at 64.77 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffb73aad-640a-4a2e-9ef0-e5d25f32447f")
+	)
+	(hierarchical_label "3"
+		(shape bidirectional)
+		(at 96.52 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16da9f1d-3973-47e9-9077-930db72e183b")
+	)
+	(hierarchical_label "9"
+		(shape bidirectional)
+		(at 143.51 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "223b57ee-b6bd-4550-81cd-7dd1c7c1e1d9")
+	)
+	(hierarchical_label "4"
+		(shape bidirectional)
+		(at 96.52 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2304cdcc-fd49-43ac-87e0-b92525222780")
+	)
+	(hierarchical_label "VDD"
+		(shape bidirectional)
+		(at 157.48 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4451ed66-9a1d-44cd-88cf-3081ba4a4640")
+	)
+	(hierarchical_label "1"
+		(shape bidirectional)
+		(at 96.52 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75638cc4-8c49-4392-bfd5-371f6177b557")
+	)
+	(hierarchical_label "2"
+		(shape bidirectional)
+		(at 96.52 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d2d4ca3-71ed-4ddd-b542-2967108019e1")
+	)
+	(hierarchical_label "7"
+		(shape bidirectional)
+		(at 143.51 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c46dd868-d555-4e35-b806-ab47cee5b1f2")
+	)
+	(hierarchical_label "5"
+		(shape bidirectional)
+		(at 143.51 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce26a1c3-9ce7-4bb6-a9fe-d240e1ab65a7")
+	)
+	(hierarchical_label "6"
+		(shape bidirectional)
+		(at 143.51 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd1403bd-6251-4b5f-9f36-1334b817d3ef")
+	)
+	(hierarchical_label "0"
+		(shape bidirectional)
+		(at 96.52 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df033b1c-7ddb-4b22-aff9-174893e81bc7")
+	)
+	(hierarchical_label "8"
+		(shape bidirectional)
+		(at 143.51 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e35cd4cf-8880-4b3c-9bb8-b8c16dfc211d")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 95.25 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07f2c610-20b2-494f-8f65-80d943db2850")
+		(property "Reference" "R60"
+			(at 124.46 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 124.46 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 124.46 97.028 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36ad7f6b-1fae-41b3-93dd-e7e1d2e24ba6")
+		)
+		(pin "2"
+			(uuid "402646f3-211d-49f1-9352-7950dbf58a9b")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/00ea1f31-d309-4e2f-b7be-eef6592a8f27"
+					(reference "R92")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/58cfaec7-d246-4f79-a045-21298a0ce568"
+					(reference "R60")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/7462a5db-69d3-437e-9d2e-1398ea4bbe29"
+					(reference "R102")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c2a77be6-2b91-453d-9b00-e1367b0559cc"
+					(reference "R72")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c85092f3-2bc5-4c81-b668-29ee52f17a08"
+					(reference "R82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AM2520F3C03-P22:AM2520F3C03-P22")
+		(at 111.76 63.5 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eff50fa-c447-40bf-b27c-1666c2ecfc4d")
+		(property "Reference" "LED64"
+			(at 118.11 69.8499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AM2520F3C03-P22"
+			(at 118.11 72.3899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IBM_cardreader:Kingbright"
+			(at 18.11 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/AM2520F3C03-P22.pdf"
+			(at -81.89 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "2.5X2.0MM INFRARED SMD LED"
+			(at 111.76 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.9"
+			(at -281.89 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Part Number" "604-AM2520F3C03-P22"
+			(at -381.89 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/AM2520F3C03-P22?qs=fAHHVMwC%252BbjmuZM2lGhnaA%3D%3D"
+			(at -481.89 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Kingbright"
+			(at -581.89 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AM2520F3C03-P22"
+			(at -681.89 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "66e27a0b-9166-49e3-8704-16dac3af5deb")
+		)
+		(pin "2"
+			(uuid "770a4211-8834-49a0-9eb5-c2a05c5a814b")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/00ea1f31-d309-4e2f-b7be-eef6592a8f27"
+					(reference "LED70")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/58cfaec7-d246-4f79-a045-21298a0ce568"
+					(reference "LED64")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/7462a5db-69d3-437e-9d2e-1398ea4bbe29"
+					(reference "LED72")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c2a77be6-2b91-453d-9b00-e1367b0559cc"
+					(reference "LED66")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c85092f3-2bc5-4c81-b668-29ee52f17a08"
+					(reference "LED68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AM2520F3C03-P22:AM2520F3C03-P22")
+		(at 64.77 134.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "200cb46e-03d4-4d9c-af35-5e55824bd60c")
+		(property "Reference" "LED83"
+			(at 71.12 140.9699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AM2520F3C03-P22"
+			(at 71.12 143.5099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IBM_cardreader:Kingbright"
+			(at -28.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/AM2520F3C03-P22.pdf"
+			(at -128.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "2.5X2.0MM INFRARED SMD LED"
+			(at 64.77 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.9"
+			(at -328.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Part Number" "604-AM2520F3C03-P22"
+			(at -428.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/AM2520F3C03-P22?qs=fAHHVMwC%252BbjmuZM2lGhnaA%3D%3D"
+			(at -528.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Kingbright"
+			(at -628.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AM2520F3C03-P22"
+			(at -728.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "fe65b65a-b5c4-4147-b458-7f4c6be163c7")
+		)
+		(pin "2"
+			(uuid "be1e6cfb-6ef6-4ca3-88a5-33256c861fde")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/00ea1f31-d309-4e2f-b7be-eef6592a8f27"
+					(reference "LED89")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/58cfaec7-d246-4f79-a045-21298a0ce568"
+					(reference "LED83")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/7462a5db-69d3-437e-9d2e-1398ea4bbe29"
+					(reference "LED91")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c2a77be6-2b91-453d-9b00-e1367b0559cc"
+					(reference "LED85")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c85092f3-2bc5-4c81-b668-29ee52f17a08"
+					(reference "LED87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AM2520F3C03-P22:AM2520F3C03-P22")
+		(at 111.76 134.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "265b998c-0e6d-494a-9f84-aee6c5365167")
+		(property "Reference" "LED84"
+			(at 118.11 140.9699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AM2520F3C03-P22"
+			(at 118.11 143.5099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IBM_cardreader:Kingbright"
+			(at 18.11 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/AM2520F3C03-P22.pdf"
+			(at -81.89 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "2.5X2.0MM INFRARED SMD LED"
+			(at 111.76 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.9"
+			(at -281.89 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Part Number" "604-AM2520F3C03-P22"
+			(at -381.89 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/AM2520F3C03-P22?qs=fAHHVMwC%252BbjmuZM2lGhnaA%3D%3D"
+			(at -481.89 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Kingbright"
+			(at -581.89 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AM2520F3C03-P22"
+			(at -681.89 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "215d4e70-fb41-4991-b72f-364091096c7c")
+		)
+		(pin "2"
+			(uuid "9f397d3e-2815-4a49-a6b5-301b9bce80e7")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/00ea1f31-d309-4e2f-b7be-eef6592a8f27"
+					(reference "LED90")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/58cfaec7-d246-4f79-a045-21298a0ce568"
+					(reference "LED84")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/7462a5db-69d3-437e-9d2e-1398ea4bbe29"
+					(reference "LED92")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c2a77be6-2b91-453d-9b00-e1367b0559cc"
+					(reference "LED86")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c85092f3-2bc5-4c81-b668-29ee52f17a08"
+					(reference "LED88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AM2520F3C03-P22:AM2520F3C03-P22")
+		(at 64.77 63.5 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "322b8600-1fd1-455e-99aa-ac873fdf1080")
+		(property "Reference" "LED63"
+			(at 71.12 69.8499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AM2520F3C03-P22"
+			(at 71.12 72.3899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IBM_cardreader:Kingbright"
+			(at -28.88 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/AM2520F3C03-P22.pdf"
+			(at -128.88 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "2.5X2.0MM INFRARED SMD LED"
+			(at 64.77 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.9"
+			(at -328.88 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Part Number" "604-AM2520F3C03-P22"
+			(at -428.88 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/AM2520F3C03-P22?qs=fAHHVMwC%252BbjmuZM2lGhnaA%3D%3D"
+			(at -528.88 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Kingbright"
+			(at -628.88 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AM2520F3C03-P22"
+			(at -728.88 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "585fde48-e6b0-4749-884e-9bb3d8bcfbda")
+		)
+		(pin "2"
+			(uuid "958b5c02-9f50-4baf-9462-4d952f1897d9")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/00ea1f31-d309-4e2f-b7be-eef6592a8f27"
+					(reference "LED69")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/58cfaec7-d246-4f79-a045-21298a0ce568"
+					(reference "LED63")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/7462a5db-69d3-437e-9d2e-1398ea4bbe29"
+					(reference "LED71")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c2a77be6-2b91-453d-9b00-e1367b0559cc"
+					(reference "LED65")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c85092f3-2bc5-4c81-b668-29ee52f17a08"
+					(reference "LED67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 24.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d5bf2c4-8931-46a7-956d-9d6ab09abf15")
+		(property "Reference" "R58"
+			(at 124.46 17.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 124.46 20.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 124.46 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f38c2882-1c6e-423f-ae66-ff96263e0890")
+		)
+		(pin "2"
+			(uuid "def94dc0-6cbb-4da3-945e-47dbcad14399")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/00ea1f31-d309-4e2f-b7be-eef6592a8f27"
+					(reference "R90")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/58cfaec7-d246-4f79-a045-21298a0ce568"
+					(reference "R58")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/7462a5db-69d3-437e-9d2e-1398ea4bbe29"
+					(reference "R100")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c2a77be6-2b91-453d-9b00-e1367b0559cc"
+					(reference "R70")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c85092f3-2bc5-4c81-b668-29ee52f17a08"
+					(reference "R80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 166.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c870495-1958-45b2-bc98-dcabefadf28c")
+		(property "Reference" "R62"
+			(at 124.46 160.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 124.46 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 124.46 168.148 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e25b1bd6-95df-43be-a739-d56f8b3e4512")
+		)
+		(pin "2"
+			(uuid "e8e12bd9-531d-43f2-9349-40734545f21f")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/00ea1f31-d309-4e2f-b7be-eef6592a8f27"
+					(reference "R94")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/58cfaec7-d246-4f79-a045-21298a0ce568"
+					(reference "R62")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/7462a5db-69d3-437e-9d2e-1398ea4bbe29"
+					(reference "R104")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c2a77be6-2b91-453d-9b00-e1367b0559cc"
+					(reference "R74")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c85092f3-2bc5-4c81-b668-29ee52f17a08"
+					(reference "R84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4de4035e-f1d0-4ff6-999c-19df1f24c38e")
+		(property "Reference" "R59"
+			(at 124.46 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 124.46 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 124.46 61.468 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33d4f7ac-f105-4157-9fe8-b047e6bbf433")
+		)
+		(pin "2"
+			(uuid "bf60e8f5-0dbd-47eb-9a12-feb40fc26d7b")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/00ea1f31-d309-4e2f-b7be-eef6592a8f27"
+					(reference "R91")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/58cfaec7-d246-4f79-a045-21298a0ce568"
+					(reference "R59")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/7462a5db-69d3-437e-9d2e-1398ea4bbe29"
+					(reference "R101")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c2a77be6-2b91-453d-9b00-e1367b0559cc"
+					(reference "R71")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c85092f3-2bc5-4c81-b668-29ee52f17a08"
+					(reference "R81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AM2520F3C03-P22:AM2520F3C03-P22")
+		(at 111.76 170.18 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58d363a0-cf37-4c1f-a7d4-e908ed86e1d5")
+		(property "Reference" "LED94"
+			(at 118.11 176.5299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AM2520F3C03-P22"
+			(at 118.11 179.0699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IBM_cardreader:Kingbright"
+			(at 18.11 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/AM2520F3C03-P22.pdf"
+			(at -81.89 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "2.5X2.0MM INFRARED SMD LED"
+			(at 111.76 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.9"
+			(at -281.89 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Part Number" "604-AM2520F3C03-P22"
+			(at -381.89 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/AM2520F3C03-P22?qs=fAHHVMwC%252BbjmuZM2lGhnaA%3D%3D"
+			(at -481.89 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Kingbright"
+			(at -581.89 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AM2520F3C03-P22"
+			(at -681.89 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "d1e7a2a4-9219-4598-b516-8f928e083ffc")
+		)
+		(pin "2"
+			(uuid "8146d55b-5b08-4504-bc03-d8ba576bf6d5")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/00ea1f31-d309-4e2f-b7be-eef6592a8f27"
+					(reference "LED100")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/58cfaec7-d246-4f79-a045-21298a0ce568"
+					(reference "LED94")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/7462a5db-69d3-437e-9d2e-1398ea4bbe29"
+					(reference "LED102")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c2a77be6-2b91-453d-9b00-e1367b0559cc"
+					(reference "LED96")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c85092f3-2bc5-4c81-b668-29ee52f17a08"
+					(reference "LED98")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62a381b7-c947-44c3-a693-5b4d8aa288d6")
+		(property "Reference" "R56"
+			(at 77.47 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 77.47 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 77.47 132.588 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eec1adca-b207-4e9d-8043-371713d31948")
+		)
+		(pin "2"
+			(uuid "5f256b70-98ab-4347-bbe9-bad06c0e3a86")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/00ea1f31-d309-4e2f-b7be-eef6592a8f27"
+					(reference "R88")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/58cfaec7-d246-4f79-a045-21298a0ce568"
+					(reference "R56")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/7462a5db-69d3-437e-9d2e-1398ea4bbe29"
+					(reference "R98")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c2a77be6-2b91-453d-9b00-e1367b0559cc"
+					(reference "R68")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c85092f3-2bc5-4c81-b668-29ee52f17a08"
+					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80e0878a-ecbc-4abc-b11e-9fed63898f98")
+		(property "Reference" "R54"
+			(at 77.47 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 77.47 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 77.47 61.468 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1262d493-3296-461a-8513-c56763f77a93")
+		)
+		(pin "2"
+			(uuid "e12e6b9c-ef11-4eaa-9fa3-ee6099818a0b")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/00ea1f31-d309-4e2f-b7be-eef6592a8f27"
+					(reference "R86")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/58cfaec7-d246-4f79-a045-21298a0ce568"
+					(reference "R54")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/7462a5db-69d3-437e-9d2e-1398ea4bbe29"
+					(reference "R96")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c2a77be6-2b91-453d-9b00-e1367b0559cc"
+					(reference "R66")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c85092f3-2bc5-4c81-b668-29ee52f17a08"
+					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 95.25 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81d63696-34e8-4f04-96b7-bb61f8bb3878")
+		(property "Reference" "R55"
+			(at 77.47 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 77.47 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 77.47 97.028 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9858d156-289a-4915-bb0c-b53da430320e")
+		)
+		(pin "2"
+			(uuid "b32aa3de-1183-46d0-89e5-da619bf47b6a")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/00ea1f31-d309-4e2f-b7be-eef6592a8f27"
+					(reference "R87")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/58cfaec7-d246-4f79-a045-21298a0ce568"
+					(reference "R55")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/7462a5db-69d3-437e-9d2e-1398ea4bbe29"
+					(reference "R97")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c2a77be6-2b91-453d-9b00-e1367b0559cc"
+					(reference "R67")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c85092f3-2bc5-4c81-b668-29ee52f17a08"
+					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AM2520F3C03-P22:AM2520F3C03-P22")
+		(at 64.77 170.18 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a094bf6b-93d4-4982-a7b7-2916e9b48f8e")
+		(property "Reference" "LED93"
+			(at 71.12 176.5299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AM2520F3C03-P22"
+			(at 71.12 179.0699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IBM_cardreader:Kingbright"
+			(at -28.88 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/AM2520F3C03-P22.pdf"
+			(at -128.88 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "2.5X2.0MM INFRARED SMD LED"
+			(at 64.77 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.9"
+			(at -328.88 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Part Number" "604-AM2520F3C03-P22"
+			(at -428.88 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/AM2520F3C03-P22?qs=fAHHVMwC%252BbjmuZM2lGhnaA%3D%3D"
+			(at -528.88 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Kingbright"
+			(at -628.88 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AM2520F3C03-P22"
+			(at -728.88 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "a1cbf69f-21f3-481f-b784-526a51d86ac2")
+		)
+		(pin "2"
+			(uuid "70a0130a-d32d-4072-be8e-6dccf63e558e")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/00ea1f31-d309-4e2f-b7be-eef6592a8f27"
+					(reference "LED99")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/58cfaec7-d246-4f79-a045-21298a0ce568"
+					(reference "LED93")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/7462a5db-69d3-437e-9d2e-1398ea4bbe29"
+					(reference "LED101")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c2a77be6-2b91-453d-9b00-e1367b0559cc"
+					(reference "LED95")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c85092f3-2bc5-4c81-b668-29ee52f17a08"
+					(reference "LED97")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 166.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b210ea73-4967-4d58-9149-00f13a605f9a")
+		(property "Reference" "R57"
+			(at 77.47 160.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 77.47 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 77.47 168.148 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "425e573d-904d-4b05-8cb2-b706777d3672")
+		)
+		(pin "2"
+			(uuid "d7d07b4f-17ea-4b60-b4ab-899e1affdd5c")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/00ea1f31-d309-4e2f-b7be-eef6592a8f27"
+					(reference "R89")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/58cfaec7-d246-4f79-a045-21298a0ce568"
+					(reference "R57")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/7462a5db-69d3-437e-9d2e-1398ea4bbe29"
+					(reference "R99")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c2a77be6-2b91-453d-9b00-e1367b0559cc"
+					(reference "R69")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c85092f3-2bc5-4c81-b668-29ee52f17a08"
+					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AM2520F3C03-P22:AM2520F3C03-P22")
+		(at 64.77 99.06 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c086c7ea-c372-4747-8806-e411ce20c6b0")
+		(property "Reference" "LED73"
+			(at 71.12 105.4099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AM2520F3C03-P22"
+			(at 71.12 107.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IBM_cardreader:Kingbright"
+			(at -28.88 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/AM2520F3C03-P22.pdf"
+			(at -128.88 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "2.5X2.0MM INFRARED SMD LED"
+			(at 64.77 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.9"
+			(at -328.88 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Part Number" "604-AM2520F3C03-P22"
+			(at -428.88 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/AM2520F3C03-P22?qs=fAHHVMwC%252BbjmuZM2lGhnaA%3D%3D"
+			(at -528.88 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Kingbright"
+			(at -628.88 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AM2520F3C03-P22"
+			(at -728.88 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "631acbea-2e12-4395-bdb2-53c64e799fc6")
+		)
+		(pin "2"
+			(uuid "aa0648b5-e129-407b-83b3-47dac1aa3bff")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/00ea1f31-d309-4e2f-b7be-eef6592a8f27"
+					(reference "LED79")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/58cfaec7-d246-4f79-a045-21298a0ce568"
+					(reference "LED73")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/7462a5db-69d3-437e-9d2e-1398ea4bbe29"
+					(reference "LED81")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c2a77be6-2b91-453d-9b00-e1367b0559cc"
+					(reference "LED75")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c85092f3-2bc5-4c81-b668-29ee52f17a08"
+					(reference "LED77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 24.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c12a50f2-cb57-42a8-8ed8-6dc6b44318dc")
+		(property "Reference" "R53"
+			(at 77.47 17.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 77.47 20.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 77.47 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7c56947-f242-4801-8824-99aaccc1c0cd")
+		)
+		(pin "2"
+			(uuid "3c136070-4543-475e-9d62-cdebc59c5240")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/00ea1f31-d309-4e2f-b7be-eef6592a8f27"
+					(reference "R85")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/58cfaec7-d246-4f79-a045-21298a0ce568"
+					(reference "R53")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/7462a5db-69d3-437e-9d2e-1398ea4bbe29"
+					(reference "R95")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c2a77be6-2b91-453d-9b00-e1367b0559cc"
+					(reference "R65")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c85092f3-2bc5-4c81-b668-29ee52f17a08"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AM2520F3C03-P22:AM2520F3C03-P22")
+		(at 64.77 27.94 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccdf3596-f68c-49a3-9106-48374f3c17e9")
+		(property "Reference" "LED51"
+			(at 71.12 34.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AM2520F3C03-P22"
+			(at 71.12 36.8299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IBM_cardreader:Kingbright"
+			(at -28.88 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/AM2520F3C03-P22.pdf"
+			(at -128.88 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "2.5X2.0MM INFRARED SMD LED"
+			(at 64.77 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.9"
+			(at -328.88 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Part Number" "604-AM2520F3C03-P22"
+			(at -428.88 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/AM2520F3C03-P22?qs=fAHHVMwC%252BbjmuZM2lGhnaA%3D%3D"
+			(at -528.88 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Kingbright"
+			(at -628.88 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AM2520F3C03-P22"
+			(at -728.88 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "08656728-82a0-45bd-9b31-99f246e788c5")
+		)
+		(pin "2"
+			(uuid "4e2369a3-5411-48c8-89ba-4868b820bd20")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/00ea1f31-d309-4e2f-b7be-eef6592a8f27"
+					(reference "LED54")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/58cfaec7-d246-4f79-a045-21298a0ce568"
+					(reference "LED51")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/7462a5db-69d3-437e-9d2e-1398ea4bbe29"
+					(reference "LED55")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c2a77be6-2b91-453d-9b00-e1367b0559cc"
+					(reference "LED52")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c85092f3-2bc5-4c81-b668-29ee52f17a08"
+					(reference "LED53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AM2520F3C03-P22:AM2520F3C03-P22")
+		(at 111.76 27.94 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d138b47f-9f47-4365-81ad-97774d1cd390")
+		(property "Reference" "LED56"
+			(at 118.11 34.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AM2520F3C03-P22"
+			(at 118.11 36.8299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IBM_cardreader:Kingbright"
+			(at 18.11 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/AM2520F3C03-P22.pdf"
+			(at -81.89 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "2.5X2.0MM INFRARED SMD LED"
+			(at 111.76 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.9"
+			(at -281.89 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Part Number" "604-AM2520F3C03-P22"
+			(at -381.89 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/AM2520F3C03-P22?qs=fAHHVMwC%252BbjmuZM2lGhnaA%3D%3D"
+			(at -481.89 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Kingbright"
+			(at -581.89 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AM2520F3C03-P22"
+			(at -681.89 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "638c2679-6f9e-4dc7-96a5-98e19e233137")
+		)
+		(pin "2"
+			(uuid "8e9a0b24-7b72-4908-9764-2217fcf10f42")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/00ea1f31-d309-4e2f-b7be-eef6592a8f27"
+					(reference "LED59")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/58cfaec7-d246-4f79-a045-21298a0ce568"
+					(reference "LED56")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/7462a5db-69d3-437e-9d2e-1398ea4bbe29"
+					(reference "LED60")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c2a77be6-2b91-453d-9b00-e1367b0559cc"
+					(reference "LED57")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c85092f3-2bc5-4c81-b668-29ee52f17a08"
+					(reference "LED58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AM2520F3C03-P22:AM2520F3C03-P22")
+		(at 111.76 99.06 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5f06b7b-c266-4e61-9dbc-14431c80e4cc")
+		(property "Reference" "LED74"
+			(at 118.11 105.4099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AM2520F3C03-P22"
+			(at 118.11 107.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IBM_cardreader:Kingbright"
+			(at 18.11 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/AM2520F3C03-P22.pdf"
+			(at -81.89 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "2.5X2.0MM INFRARED SMD LED"
+			(at 111.76 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.9"
+			(at -281.89 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Part Number" "604-AM2520F3C03-P22"
+			(at -381.89 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/AM2520F3C03-P22?qs=fAHHVMwC%252BbjmuZM2lGhnaA%3D%3D"
+			(at -481.89 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Kingbright"
+			(at -581.89 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AM2520F3C03-P22"
+			(at -681.89 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "e513977d-d69e-4695-abcc-f43ded71ba97")
+		)
+		(pin "2"
+			(uuid "5df89af4-169b-4ef1-affa-5b62d690a5ec")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/00ea1f31-d309-4e2f-b7be-eef6592a8f27"
+					(reference "LED80")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/58cfaec7-d246-4f79-a045-21298a0ce568"
+					(reference "LED74")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/7462a5db-69d3-437e-9d2e-1398ea4bbe29"
+					(reference "LED82")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c2a77be6-2b91-453d-9b00-e1367b0559cc"
+					(reference "LED76")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c85092f3-2bc5-4c81-b668-29ee52f17a08"
+					(reference "LED78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f58ce9d9-5b78-4ec0-b05e-41b8644a22a5")
+		(property "Reference" "R61"
+			(at 124.46 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 124.46 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 124.46 132.588 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c0e2ca3-64c5-40fc-8125-3010df77b0a4")
+		)
+		(pin "2"
+			(uuid "51ce1079-1239-4855-a420-34b671058f51")
+		)
+		(instances
+			(project "IBM_cardreader"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/00ea1f31-d309-4e2f-b7be-eef6592a8f27"
+					(reference "R93")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/58cfaec7-d246-4f79-a045-21298a0ce568"
+					(reference "R61")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/7462a5db-69d3-437e-9d2e-1398ea4bbe29"
+					(reference "R103")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c2a77be6-2b91-453d-9b00-e1367b0559cc"
+					(reference "R73")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/76e314ab-533a-41de-b988-db99b957ab01/c85092f3-2bc5-4c81-b668-29ee52f17a08"
+					(reference "R83")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

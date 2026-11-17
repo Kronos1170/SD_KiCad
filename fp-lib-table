@@ -1,0 +1,8 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Espressif") (type "KiCad") (uri "${KIPRJMOD}/Espressif.pretty") (options "") (descr "ESP32-S3-DevKitC footprint from github.com/espressif/kicad-libraries"))
+	(lib (name "TLV9062SIDGSR") (type "KiCad") (uri "${KIPRJMOD}/TLV9062SIDGSR/TLV9062SIDGSR.pretty") (options "") (descr ""))
+	(lib (name "Sn74HC4066N") (type "KiCad") (uri "${KIPRJMOD}/SN74HC4066N/Sn74HC4066N.pretty") (options "") (descr ""))
+	(lib (name "IBM_cardreader") (type "KiCad") (uri "${KIPRJMOD}/IBM_cardreader.pretty") (options "") (descr ""))
+	(lib (name "LP0701N3_G") (type "KiCad") (uri "${KIPRJMOD}/LP0701N3_G/LP0701N3_G.pretty") (options "") (descr ""))
+)

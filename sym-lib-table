@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "IBM_cardreader") (type "KiCad") (uri "${KIPRJMOD}/IBM_cardreader.kicad_sym") (options "") (descr "Project symbols: 8x isolated DIP-16 resistor array"))
+)

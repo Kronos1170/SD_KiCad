@@ -1,0 +1,34 @@
+# KiCad backups and autosaves
+*-backups/
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+_autosave-*
+*.tmp
+
+# Lock files
+*.lck
+~*.lck
+\#auto_saved_files#
+
+# Caches and generated files
+fp-info-cache
+*-cache.lib
+*-cache.dcm
+*.kicad_prl
+
+# Local history and restore backups
+.history/
+_restore_backup_*/
+
+
+# Reports and netlist exports
+Update_DRC/
+*netlist*.txt
+*.net
+
+# Fabrication outputs (remove these lines if you want to commit gerbers)
+gerbers/
+production/
+*.zip
